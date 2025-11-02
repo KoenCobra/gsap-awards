@@ -1,6 +1,10 @@
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 import React from "react";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
